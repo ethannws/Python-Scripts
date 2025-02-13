@@ -15,7 +15,7 @@
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/ethannws/Python-Script.git
+   git clone https://github.com/ethannws/Python-Scripts/convert-ithmb.git
    ```
 2. Navigate to the directory:
    ```sh
