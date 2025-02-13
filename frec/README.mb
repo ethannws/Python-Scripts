@@ -1,0 +1,51 @@
+# Facial Recognition and Clustering (frec)
+
+## Overview
+`frec` is a Python-based project for facial recognition and clustering. It uses OpenCV for image processing, face_recognition for detecting and encoding faces, and DBSCAN for clustering similar faces. This project allows you to load images from a folder, detect and encode faces, cluster similar faces, and save the grouped faces into separate folders.
+
+## Features
+- Load images from a specified folder
+- Detect and encode faces using `face_recognition`
+- Cluster similar faces using DBSCAN
+- Save grouped faces into separate folders
+
+## Requirements
+- Python 3.6+
+- OpenCV
+- face_recognition
+- scikit-learn
+- numpy
+
+## Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/frec.git
+    cd frec
+    ```
+
+2. Install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+1. Run the script:
+    ```sh
+    python facial_recognition.py
+    ```
+
+2. Follow the prompts to enter the path to your photos and videos folder and the path to save grouped faces.
+
+## Docker Instructions
+1. Build the Docker image:
+    ```sh
+    docker build -t frec .
+    ```
+
+2. Run the Docker container:
+    ```sh
+    docker run -v /path/to/your/photos:/input -v /path/to/save/grouped/faces:/output frec
+    ```
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
