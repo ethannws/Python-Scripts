@@ -1,7 +1,7 @@
 # iThmb Converter
 
 ## Overview
-[`convert_ithmb.py`](https://github.com/ethannws/Python-Script/main/convert-ithmb) is a Python script that converts `.ithmb` (iPod Thumbnail) images to `.jpeg` format and saves them in a `converted` folder.
+[`convert_ithmb.py`](https://github.com/ethannws/Python-Scripts/tree/main/convert-ithmb) is a Python script that converts `.ithmb` (iPod Thumbnail) images to `.jpeg` format and saves them in a `converted` folder.
 
 ## Features
 - Converts `.ithmb` files to `.jpeg` format.
